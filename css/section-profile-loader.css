@@ -1,0 +1,43 @@
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4; /* 여기서 투명도를 조절하여 깜빡이는 강도를 변경할 수 있습니다. */
+    }
+}
+
+.section-profile-loader #personal-img > div,
+.section-profile-loader #personal-img > button,
+.section-profile-loader .tab,
+.section-profile-loader #info-list > .info {
+    animation: blink 1.5s infinite; /* 1.5초 동안 깜빡이며 계속 반복합니다. */
+}
+
+.section-profile-loader #personal-img > div{
+    width: 300px;
+    height: 300px;
+    background-color: #eee;
+    border:none;
+    border-radius: 5px;
+}
+
+.section-profile-loader #personal-img > button {
+    background-color: #eee;
+}
+
+.section-profile-loader .tab {
+    background-color: #eee;
+    padding: 20px 40px;
+}
+
+.section-profile-loader #info-list {
+    border: none;
+}
+
+.section-profile-loader #info-list > .info {
+    background-color:  #eee;
+    border: none;
+    padding: 35px 0;
+}
+

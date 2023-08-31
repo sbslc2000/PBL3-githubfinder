@@ -1,0 +1,26 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tab {
+    display: inline-block;
+    background-color: cornflowerblue;
+    padding: 9px 15px;
+    color: white;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.tab:nth-child(1) {
+    background-color: cornflowerblue;
+}
+
+.tab:nth-child(2) {
+    background-color: lightcoral;
+}
+
+.tab:nth-child(3) {
+    background-color: mediumslateblue;
+}

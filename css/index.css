@@ -1,0 +1,78 @@
+header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+}
+
+#section-form {
+    display:flex;
+    flex-direction: column;
+
+}
+
+#section-form > h1 {
+    margin: 0;
+    font-size: 50px;
+
+}
+
+#section-form > span {
+    color: gray;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+#section-form input {
+    width: 100%;
+    font-size:30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1); /* 수평 오프셋, 수직 오프셋, 흐림 반경, 색상 */
+}
+
+
+
+
+#info-list {
+    margin: 25px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#info-list > li {
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#info-list:last-child {
+    border-bottom: 0;
+}
+
+#section-latest-repos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-header {
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.latest-repo {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.latest-repo > a {
+    width: 50%;
+    font-size: 30px;
+    padding: 10px;
+}
+
